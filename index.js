@@ -16,3 +16,10 @@ if (padlOrel) {
 } else {
     minceElement.classList.add('mince--panna');
 }
+
+/*	1.	Náhodné přiřazení hodnoty: padlOrel má hodnotu true nebo false na základě náhodné hodnoty generované pomocí Math.random().
+	2.	Výběr a úprava textu pro .vysledek: Pomocí document.querySelector('.vysledek') vyberu element a podle hodnoty padlOrel nastavím odpovídající text.
+	3.	Přidání třídy k elementu .mince: Vyberu element s třídou .mince a podle hodnoty padlOrel přidám buď třídu mince--orel nebo mince--panna.
+
+Tento kód by měl zajistit, že se při načtení stránky zobrazí náhodně buď “Padl orel” nebo “Padla panna” a zároveň se přidá odpovídající třída k elementu .mince.
+*/
